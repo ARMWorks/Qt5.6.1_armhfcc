@@ -1,0 +1,14 @@
+prefix=/opt/qt5cc/qt5arm
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 Nfc
+Description: Qt Nfc module
+Version: 5.6.2
+Libs: -L${libdir} -lQt5Nfc 
+Libs.private: -L/opt/qt5cc/qt5arm/lib -lQt5Core -lpthread -lQt5DBus -L/opt/qt5cc/qt5arm/lib -lQt5Core -lpthread  
+Cflags: -I${includedir}/QtNfc -I${includedir}
+Requires: Qt5Core
+

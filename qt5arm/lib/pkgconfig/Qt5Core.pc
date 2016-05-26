@@ -1,0 +1,15 @@
+prefix=/opt/qt5cc/qt5arm
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+host_bins=/opt/qt5cc/qt5host/bin
+qt_config=minimal-config small-config medium-config large-config full-config fontconfig libudev evdev tslib linuxfb c++11 c++14 accessibility shared qpa reduce_exports clock-gettime clock-monotonic posix_fallocate mremap getaddrinfo ipv6ifname getifaddrs inotify eventfd threadsafe-cloexec system-png png system-freetype harfbuzz system-zlib nis cups iconv glib dbus dbus-linked openssl libproxy rpath alsa pulseaudio gstreamer-1.0 concurrent audio-backend release
+
+Name: Qt5 Core
+Description: Qt Core module
+Version: 5.6.1
+Libs: -L${libdir} -lQt5Core 
+Libs.private: -lpthread -lz -L/opt/qt5cc/qt5arm/lib -lqtpcre -lm -ldl -L/opt/qt5cc/sysroot//usr/lib/arm-linux-gnueabihf -lgthread-2.0 -pthread -lglib-2.0 -lrt  
+Cflags: -I${includedir}/QtCore -I${includedir}
+
