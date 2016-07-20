@@ -40,3 +40,13 @@ Copy directory qt5arm/ to /usr/local/ then run:
 
     echo "/usr/local/qt5arm/lib" > /etc/ld.so.conf.d/qt5arm.conf
     ldconfig
+
+##PyQt5##
+
+Copy the contents of pyqt5arm/python2.7(3.4)/ to /usr/lib/python2.7(3.4)/
+
+	ldconfig
+
+To compile resource files, or user interface files you will need to compile PyQt5.6.1 and sip4.18 for your machine if they are not available.
+
+[Riverbank Computing](https://www.riverbankcomputing.com/news)
