@@ -13,6 +13,7 @@ This was done on a fresh install of Debian Jessie, it is recommended to start fr
 ###Configure and Install Host Packages###
 
 Add repo and key to available sources.
+
     sudo echo "deb http://emdebian.org/tools/debian/ jessie main" > /etc/apt/sources.list.d/crosstools.list
     curl http://emdebian.org/tools/debian/emdebian-toolchain-archive.key | sudo apt-key add -
 
