@@ -1,4 +1,4 @@
-/* Copyright (c) 2009, 2013, Oracle and/or its affiliates. All rights reserved.
+/* Copyright (c) 2009, 2016, Oracle and/or its affiliates. All rights reserved.
  
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -376,6 +376,7 @@
 /* #undef HAVE_UINT64 */
 /* #undef SIZEOF_BOOL */
 /* #undef HAVE_BOOL */
+#define HAVE_STRUCT_TIMESPEC
 
 #define SOCKET_SIZE_TYPE socklen_t
 
@@ -497,6 +498,7 @@
 /* #undef strtok_r */
 /* #undef strtoll */
 /* #undef strtoull */
+/* #undef tzname */
 /* #undef vsnprintf */
 #if (_MSC_VER > 1310)
 # define HAVE_SETENV
@@ -610,10 +612,10 @@
 #define PACKAGE "mysql"
 #define PACKAGE_BUGREPORT ""
 #define PACKAGE_NAME "MySQL Server"
-#define PACKAGE_STRING "MySQL Server 5.5.47"
+#define PACKAGE_STRING "MySQL Server 5.5.49"
 #define PACKAGE_TARNAME "mysql"
-#define PACKAGE_VERSION "5.5.47"
-#define VERSION "5.5.47"
+#define PACKAGE_VERSION "5.5.49"
+#define VERSION "5.5.49"
 #define PROTOCOL_VERSION 10
 
 

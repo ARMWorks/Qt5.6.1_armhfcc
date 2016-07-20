@@ -78,9 +78,9 @@ sub header_files {
 #
 ## Package name      : perl5
 ## Source directory  : .
-## Configuration time: Sat Feb 27 10:37:59 UTC 2016
+## Configuration time: Thu May 26 07:57:51 UTC 2016
 ## Configured by     : Debian Project
-## Target system     : linux hartmann 3.16.0-4-armmp-lpae #1 smp debian 3.16.7-ckt20-1+deb8u3 (2016-01-17) armv7l gnulinux 
+## Target system     : linux hartmann 3.16.0-4-armmp-lpae #1 smp debian 3.16.7-ckt25-2 (2016-04-08) armv7l gnulinux 
 #
 #: Configure command line arguments.
 #
@@ -204,7 +204,7 @@ ccsymbols=''
 ccversion=''
 cf_by='Debian Project'
 cf_email='perl@packages.debian.org'
-cf_time='Sat Feb 27 10:37:59 UTC 2016'
+cf_time='Thu May 26 07:57:51 UTC 2016'
 charbits='8'
 charsize='1'
 chgrp=''
@@ -1014,7 +1014,7 @@ mv=''
 myarchname='armv7l-linux'
 mydomain=''
 myhostname='localhost'
-myuname='linux hartmann 3.16.0-4-armmp-lpae #1 smp debian 3.16.7-ckt20-1+deb8u3 (2016-01-17) armv7l gnulinux '
+myuname='linux hartmann 3.16.0-4-armmp-lpae #1 smp debian 3.16.7-ckt25-2 (2016-04-08) armv7l gnulinux '
 n='-n'
 need_va_copy='undef'
 netdb_hlen_type='size_t'

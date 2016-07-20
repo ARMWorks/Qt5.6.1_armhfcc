@@ -9,9 +9,9 @@
 
 /* Package name      : perl5
  * Source directory  : .
- * Configuration time: Sat Feb 27 10:37:59 UTC 2016
+ * Configuration time: Thu May 26 07:57:51 UTC 2016
  * Configured by     : Debian Project
- * Target system     : linux hartmann 3.16.0-4-armmp-lpae #1 smp debian 3.16.7-ckt20-1+deb8u3 (2016-01-17) armv7l gnulinux 
+ * Target system     : linux hartmann 3.16.0-4-armmp-lpae #1 smp debian 3.16.7-ckt25-2 (2016-04-08) armv7l gnulinux 
  */
 
 #ifndef _config_h_

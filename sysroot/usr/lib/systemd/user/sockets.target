@@ -1,1 +1,1 @@
-../../../../lib/systemd/system/sockets.target
+/lib/systemd/system/sockets.target
