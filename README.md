@@ -21,7 +21,7 @@ Add repo and key to available sources.
 Add armhf architecture and necessary packages.
 
     sudo dpkg --add-architecture armhf
-    sudo apt-get install crossbuild-essentials-armhf
+    sudo apt-get install crossbuild-essential-armhf
 
 
 ##Cross Compiling Qt Application##
